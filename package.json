@@ -1,0 +1,19 @@
+{
+  "name": "homework9",
+  "version": "1.0.0",
+  "description": "A README generator done using node.js",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baspeirs/homework9.git"
+  },
+  "author": "Bryce Speirs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baspeirs/homework9/issues"
+  },
+  "homepage": "https://github.com/baspeirs/homework9#readme"
+}
