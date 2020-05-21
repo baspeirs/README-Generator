@@ -1,0 +1,19 @@
+
+    # Project Name
+
+    project.url
+    This project, is a project. It does project things
+
+    ## Installation
+    Use the package manager [Only for tax reasons...]
+
+    ## Useage
+    This is not the best repo in the world. It is just a tribute
+
+    ## Contribute
+    Throw in some "Whoa oh oh whoa" 's
+    
+    LicensesNo drivers license needed for this project
+
+    If you have any questions about the repo, open an issue or contact baspeirs at baspeirs@gmail.com
+    

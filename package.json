@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/baspeirs/homework9#readme",
   "dependencies": {
-    "inquirer": "^7.1.0"
+    "inquirer": "^7.1.0",
+    "util": "^0.12.3"
   }
 }

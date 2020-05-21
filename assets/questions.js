@@ -29,8 +29,9 @@ module.exports = {
             name: "description"
         },
         {
-            type: "input",
+            type: "list",
             message: "What license should your project have?",
+            choices: ["license 1", "license 2", "license 3"],
             name: "license"
             // ------------ later, find a way to create a multiple choise option in the terminal ------------------
         },

@@ -5,28 +5,24 @@
     // to make a link   
         // put your hyperlink text in []
         // copy and paste the link in ()
-    //
 
-
-// we will need
-    // Title (#)
-    // Description (just regular text)
-    // Table of Contents (links)
-    // Installation (use the box thing)
-    // Usage (use the box thing)
-    // License ()
-    // Contributing 
-    // Tests
-    // Questions (provide links to your github username and your email) 
     
 //require files here
-const fs = require("fs")
-const { questions } = require("./assets/questions")
-const inquirer = require("inquirer")
+const fs = require("fs");
+const { questions } = require("./assets/questions");
+const inquirer = require("inquirer");
+const util = require("util");
+const { generateReadMe } = require("./assets/filegenerate")
+// create a promise for writing to a file
+const asyncWriteFile = util.promisify(fs.writeFile)
 
 async function askQuestions() {
     try {
-        await inquirer.prompt(questions);
+        // await the questions and save them to variables (remember, they can be called by thier values)
+        const response = await inquirer.prompt(questions);
+        // write them to a file
+        await asyncWriteFile("README.md", generateReadMe(response));
+        console.log("Sucessfully wrote to file! (hopefully lol)")
     }
     catch(error) {
         console.log(error)
