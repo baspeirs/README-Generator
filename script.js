@@ -17,4 +17,20 @@
     // License ()
     // Contributing 
     // Tests
-    // Questions (provide links to your github username and your email)  
+    // Questions (provide links to your github username and your email) 
+    
+//require files here
+const fs = require("fs")
+const { questions } = require("./assets/questions")
+const inquirer = require("inquirer")
+
+async function askQuestions() {
+    try {
+        await inquirer.prompt(questions);
+    }
+    catch(error) {
+        console.log(error)
+    }
+}
+
+askQuestions()
