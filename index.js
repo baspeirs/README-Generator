@@ -13,6 +13,7 @@ const { questions } = require("./assets/questions");
 const inquirer = require("inquirer");
 const util = require("util");
 const { generateReadMe } = require("./assets/filegenerate")
+// const { questions } = require("./assets/questions")
 // create a promise for writing to a file
 const asyncWriteFile = util.promisify(fs.writeFile)
 
@@ -21,7 +22,7 @@ async function askQuestions() {
         // await the questions and save them to variables (remember, they can be called by thier values)
         const response = await inquirer.prompt(questions);
         // write them to a file
-        await asyncWriteFile("README.md", generateReadMe(response));
+        await asyncWriteFile("README.md/abc", generateReadMe(response));
         console.log("Sucessfully wrote to file! (hopefully lol)")
     }
     catch(error) {
