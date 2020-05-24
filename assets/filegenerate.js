@@ -10,23 +10,33 @@
     // Questions (provide links to your github username and your email) 
 
 module.exports = {
-    generateReadMe: ({githubUser, email, projectUrl, projectName, description, license, installCommand, knowToUse, knowToCont}) => (`
-    # ${projectName}
+    generateReadMe: ({githubUser, email, projectUrl, projectName, description, license, installCommand, knowToUse}) => (
+`# ${projectName}
+![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)
 
-    ${projectUrl}
-    ${description}
+Check out the repo [here](${projectUrl})!
+ 
+${description}
 
-    ## Installation
-    Use the package manager [${installCommand}]
+## Table of Contents
+* [License](#license)
+* [Installation](#installation)
+* [Useage](#useage)
+* [Contribute](#contribute)
 
-    ## Useage
-    ${knowToUse}
+## Installation
+Use the package manager 
+\`\`\`bash
+${installCommand}
+\`\`\`
 
-    ## Contribute
-    ${knowToCont}
+## Useage
+\`\`\`bash
+${knowToUse}
+\`\`\`
 
-    Licenses: ${license}
-
-    If you have any questions about the repo, open an issue or contact ${githubUser} at ${email}
-    `)
+## Contribute
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+For any additional questions about the repo, contact [${githubUser}](undefined) at ${email}
+`)
 }

@@ -31,25 +31,21 @@ module.exports = {
         {
             type: "list",
             message: "What license should your project have?",
-            choices: ["license 1", "license 2", "license 3"],
+            choices: ["MIT", "APACHE", "GPL", "BSD", "None"],
             name: "license"
+            // MIT, APACHE 2.0 , GPL 3.0, BSD 3, None 
             // ------------ later, find a way to create a multiple choise option in the terminal ------------------
         },
         {
             type: "input",
             message: "what command should be run to install dependencies?",
-            // default to NPM I
+            default: "npm i",
             name: "installCommand"
         },
         {
             type: "input",
             message: "what does the user need to know about using the repo?",
             name: "knowToUse"
-        },
-        {
-            type: "input",
-            message: "what does the user need to know about contributing to the repo?",
-            name: "knowToCont"
         },
     ]
 }

@@ -2,7 +2,8 @@
 ![GitHub license](https://img.shields.io/badge/license-None-blue.svg)
 
 Check out the repo [here](https://github.com/baspeirs/homework9)!
-This application uses your command line to ask you questions and use your asnwers to fill out a README.md file
+ 
+This application uses prompts in your command line to generate a README file using your own input
 
 ## Table of Contents
 * [License](#license)
@@ -18,7 +19,7 @@ npm i
 
 ## Useage
 ```bash
-Type [node index] on your command line
+open in command line using [node index] then answer the questions as they come up in your terminal
 ```
 
 ## Contribute

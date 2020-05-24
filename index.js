@@ -22,7 +22,7 @@ async function askQuestions() {
         // await the questions and save them to variables (remember, they can be called by thier values)
         const response = await inquirer.prompt(questions);
         // write them to a file
-        await asyncWriteFile("README.md/abc", generateReadMe(response));
+        await asyncWriteFile("./assets/README.MD", generateReadMe(response));
         console.log("Sucessfully wrote to file! (hopefully lol)")
     }
     catch(error) {
