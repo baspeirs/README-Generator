@@ -17,8 +17,9 @@ npm i
 ```
 
 ## Useage
+Open up your command line and type
 ```bash
-Type [node index] on your command line
+node index
 ```
 
 ## Contribute

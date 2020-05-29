@@ -33,8 +33,6 @@ module.exports = {
             message: "What license should your project have?",
             choices: ["MIT", "APACHE", "GPL", "BSD", "None"],
             name: "license"
-            // MIT, APACHE 2.0 , GPL 3.0, BSD 3, None 
-            // ------------ later, find a way to create a multiple choise option in the terminal ------------------
         },
         {
             type: "input",

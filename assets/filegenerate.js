@@ -1,15 +1,4 @@
-// we will need
-    // Title (#)
-    // Description (just regular text)
-    // Table of Contents (links)
-    // Installation (use the box thing) ----------- this will be difficult using back tick literal
-    // Usage (use the box thing)
-    // License ()
-    // Contributing 
-    // Tests
-    // Questions (provide links to your github username and your email) 
-
-module.exports = {
+ module.exports = {
     generateReadMe: ({githubUser, email, projectUrl, projectName, description, license, installCommand, knowToUse}) => (
 `# ${projectName}
 ![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)
