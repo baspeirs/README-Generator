@@ -1,9 +1,9 @@
-# Dungeon Buddy
+# README.md Generator
 ![GitHub license](https://img.shields.io/badge/license-None-blue.svg)
 
-Check out the repo [here](https://baspeirs.github.io/DungeonBuddy/)!
+Check out the repo [here](https://github.com/baspeirs/homework9)!
  
-This application will help you with your everyday D&D needs. You can simulate dice rolls, randomly generate a character, and you can apply ability scores to your new character!
+This application will aske you a few questions about your GitHub information and Project information then use the information you provided to generate a README.md file
 
 ## Table of Contents
 * [License](#license)
@@ -14,12 +14,12 @@ This application will help you with your everyday D&D needs. You can simulate di
 ## Installation
 Use the package manager 
 ```bash
-none
+npm i
 ```
 
 ## Useage
 ```bash
-This application is web based so just follow the link to begin your adventure!
+Type [node index] into your command line
 ```
 
 ## Contribute

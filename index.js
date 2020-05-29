@@ -14,7 +14,7 @@ async function askQuestions() {
         const response = await inquirer.prompt(questions);
         // write them to a file
         await asyncWriteFile("./assets/README.MD", generateReadMe(response));
-        console.log("Sucessfully wrote to file! (hopefully lol)")
+        console.log("\nSucessfully wrote to file!")
     }
     catch(error) {
         console.log(error)
